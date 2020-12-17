@@ -12,7 +12,7 @@ const Banner = () => {
                             <div className="banner-text">
 
                                 <h1>
-                                    “A BLAZING INFERNO THAT MAKE WILL BURN RIGHT THROUGH THE PAGES!"
+                                    “A BLAZING INFERNO THAT WILL BURN RIGHT THROUGH THE PAGES!”
                                 </h1>
 
                                 {/* <p className="right-sub-text">
