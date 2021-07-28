@@ -1,5 +1,6 @@
 import React from 'react'
-import AuthorImg from '../../static/author/author-profile.jpg'
+import AuthorImg from '../../static/author/author-profile.jpg';
+import DummyAuthor from "../../static/author/dummy-profile.jpg";
 
 const Author = () => {
     return (
@@ -14,8 +15,7 @@ const Author = () => {
                         </p>
 
                         <h1 className="author-name-tag">
-                            <span>Arthur </span>
-                            <span>Grant</span>
+                            <span>Arthur Grant</span>
                         </h1>
 
                         <span className="author-tagline">
@@ -25,7 +25,7 @@ const Author = () => {
                     </div>
 
                     <div className="grid-child" id="author-image-container">
-                        <img alt="author-img" src={AuthorImg} />
+                        <img alt="author-img" src={DummyAuthor} />
                     </div>
 
                 </div>

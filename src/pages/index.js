@@ -12,7 +12,7 @@ const IndexPage = (props) => (
     <Layout>
         <Helmet title="Home | Arthur Grant"/>
         <Nav pathExt={props.path} />
-        <Banner /><br/><br/><br/><br/><br/><br/>
+        <Banner />
         <MidBook />
         <Author />
         <FeaturedLogos />

@@ -3,7 +3,7 @@
 .book-wraps {
 
     text-align: center;
-    padding: 10% 0;
+    padding: 5% 0;
 
     img {
         width: 550px;
@@ -209,10 +209,10 @@
 .author-name-tag {
     span {
 
-        &:nth-child(2) {
+        // &:nth-child(2) {
             font-family: "augusta-free";
             text-transform: capitalize !important;
-        }
+        // }
     }
 }
 
