@@ -8,13 +8,13 @@ const MidBook = (props) => {
             <section className="upper-main">
                 <div className="container-gt separator-line">
 
-                    <div id="wrapper-two-books">
+                    <div className="grid-two-columns" id="wrapper-two-books">
 
-
-                        <div className="content-wraps">
                             <div className="book-wraps">
                                 <img src={FrontBook} alt="book-img"/>
                             </div>
+
+                        <div className="content-wraps">
 
                             <span className="italic-tag">
                                 Read, listen, and learn in various formats

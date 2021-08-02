@@ -4,6 +4,7 @@ import Nav from '../components/nav'
 
 import Banner from '../components/non-front-banner'
 import AuthorImg from '../../static/author/author-profile.jpg'
+import DummyImg from '../../static/author/dummy-profile.jpg'
 import { Helmet } from "react-helmet"
 
 const ATB = (props) => {
@@ -23,7 +24,7 @@ const ATB = (props) => {
                         <div className="heading-quote column">
                             <div className="author-image-container">
                                 <img
-                                    src={AuthorImg}
+                                    src={DummyImg}
                                     alt="_main_author" />
                             </div>
 
