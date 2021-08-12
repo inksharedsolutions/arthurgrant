@@ -4,7 +4,7 @@
 @media screen and (max-width : 1350px) {
     .flex-container {
         h1 {
-            font-size: 27px;
+            font-size: 23px;
             padding: 0 8%;
         }
     }
@@ -580,6 +580,13 @@
 
     .ata-name {
         font-size: 14vw !important;
+    }
+
+    .flex-container {
+        h1 {
+            font-size: 17px;
+            padding: 0 4%;
+        }
     }
     
 }

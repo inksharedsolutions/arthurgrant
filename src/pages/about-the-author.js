@@ -23,9 +23,9 @@ const ATB = (props) => {
                     <section className="body-author-contents columns">
                         <div className="heading-quote column">
                             <div className="author-image-container">
-                                <img
+                                {/* <img
                                     src={DummyImg}
-                                    alt="_main_author" />
+                                    alt="_main_author" /> */}
                             </div>
 
                             <div className="heading-quote">
