@@ -25,7 +25,7 @@ const Author = () => {
                     </div>
 
                     <div className="grid-child" id="author-image-container">
-                        <img alt="author-img" src={DummyAuthor} />
+                        <img alt="author-img" src={DummyAuthor} hidden/>
                     </div>
 
                 </div>
